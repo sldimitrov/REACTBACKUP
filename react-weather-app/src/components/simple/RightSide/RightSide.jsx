@@ -1,4 +1,5 @@
 import React from "react";
+import ValueRow from "../../base/ValueRow";
 
 export default function RightSide() {
   return (
@@ -12,27 +13,23 @@ export default function RightSide() {
           <heading id="forecast-heading-container">
             <h4 id="forecast-heading">THUNDERSTORM WITH LIGHT DRIZZLE</h4>
           </heading>
-          <div class="row" id="row1">
-            <p class="w-characteristics">Temp max</p>
-            <p id="temp-max">19°</p>
-            <img src="images/hot_thernometer.png" alt="hot" />
-          </div>
-          <div class="row" id="row2">
+          <ValueRow parameter={"Temp max"} value={"25"} image={"image"} />
+          <div class="row">
             <p class="w-characteristics">Temp min</p>
             <p id="temp-min">15°</p>
             <img src="images/cold_thernometer.png" alt="cold" />
           </div>
-          <div class="row" id="row3">
+          <div class="row">
             <p class="w-characteristics">Humadity</p>
             <p id="humidity">58%</p>
             <img src="images/waterdrop.png" alt="waterdrop" />
           </div>
-          <div class="row" id="row4">
+          <div class="row">
             <p class="w-characteristics">Cloudy</p>
             <p id="cloudy">86%</p>
             <img src="images/cloudy.png" alt="cloudy" />
           </div>
-          <div class="row" id="row5">
+          <div class="row">
             <p class="w-characteristics">Wind</p>
             <p id="wind">5km/h</p>
             <img src="images/wind.png" alt="windy" />

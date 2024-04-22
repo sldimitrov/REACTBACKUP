@@ -1,4 +1,4 @@
-import cloudImg from "./Cloud.png";
+import cloudImg from "../../../images/Cloud.png";
 
 export default function MainInfo() {
   return (

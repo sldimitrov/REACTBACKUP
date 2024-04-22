@@ -1,4 +1,4 @@
 import Form from './Form.jsx';
-import './index.scss';
+import './style.scss';
 
 export default Form;

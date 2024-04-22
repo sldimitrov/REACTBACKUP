@@ -1,4 +1,4 @@
 import SearchButton from "./SearchButton";
-import './index.scss';
+import './style.scss';
 
 export default SearchButton;
