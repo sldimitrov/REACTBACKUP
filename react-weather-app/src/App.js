@@ -6,9 +6,8 @@ function App() {
   return (
     <div>
       <h1>TEST RENDER</h1>
-      
       <Parent>
-        <Core />
+        <Core /> 
         <RightSide />
       </Parent>
     </div>
