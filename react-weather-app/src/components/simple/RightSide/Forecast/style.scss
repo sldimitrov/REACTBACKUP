@@ -1,0 +1,27 @@
+.forecast-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 26.5vw;
+  height: 70vh;
+  top: 170px;
+}
+
+#forecast-heading-container {
+  display: flex;
+  align-items: end;
+  width: 55vw;
+  height: 8vh;
+}
+
+#forecast-heading {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-size: 18px;
+}
+
+.blank-line {
+  display: flex;
+  max-width: 27vw;
+  border-bottom: 1px solid #ffff;
+}

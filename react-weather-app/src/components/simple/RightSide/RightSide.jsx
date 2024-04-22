@@ -2,6 +2,7 @@ import testImg from "../../images/clouds.png";
 
 import React from "react";
 import ValueRow from "../../base/ValueRow";
+import Forecast from "./Forecast";
 
 export default function RightSide() {
   return (
@@ -11,13 +12,14 @@ export default function RightSide() {
         <section class="weather-details-container">
           <p id="weather-details">Weather Details...</p>
         </section>
-        <section class="forecast-container">
-          <heading id="forecast-heading-container">
-            <h4 id="forecast-heading">THUNDERSTORM WITH LIGHT DRIZZLE</h4>
-          </heading>
+
+        <Forecast>
           <ValueRow parameter={"Temp max"} value={"25"} image={testImg} />
-          <span class="blank-line" id="blank-container"></span>
-        </section>
+          <ValueRow parameter={"Temp max"} value={"25"} image={testImg} />
+          <ValueRow parameter={"Temp max"} value={"25"} image={testImg} />
+          <ValueRow parameter={"Temp max"} value={"25"} image={testImg} />
+        </Forecast>
+
         <section class="weather-container">
           <heading class="weather-forecast-container">
             <h4 id="weather-details">Today's Weather Forecast...</h4>
