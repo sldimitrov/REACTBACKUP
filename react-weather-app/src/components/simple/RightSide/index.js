@@ -1,3 +1,4 @@
-import RightSide from './index.jsx';
+import RightSide from './RightSide.jsx';
+import './style.scss';
 
 export default RightSide;
