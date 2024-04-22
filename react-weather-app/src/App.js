@@ -4,11 +4,11 @@ import RightSide from './components/simple/RightSide';
 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <h1>TEST RENDER</h1>
       <Parent>
+        
         <Core /> 
-        <RightSide />
       </Parent>
     </div>
   );
