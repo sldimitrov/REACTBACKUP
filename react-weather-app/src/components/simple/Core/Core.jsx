@@ -1,9 +1,10 @@
 import React from "react";
+import TopBar from "./TopBar";
 
 export default function Core() {
   return (
     <>
-      <h2>CORE</h2>
+      <TopBar />
     </>
   );
 }

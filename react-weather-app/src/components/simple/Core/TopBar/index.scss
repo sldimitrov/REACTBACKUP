@@ -1,0 +1,13 @@
+#top-bar-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 93vw;
+  height: 6vh;
+  z-index: 1;
+  padding-top: 15px;
+}
+
+#menu-container {
+  display: flex; 
+}
