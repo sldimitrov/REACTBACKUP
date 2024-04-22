@@ -10,5 +10,9 @@
 }
 
 #menu-container {
-  display: flex; 
+  display: flex;
+  justify-content: space-between; 
+  width: 31vw;
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
 }

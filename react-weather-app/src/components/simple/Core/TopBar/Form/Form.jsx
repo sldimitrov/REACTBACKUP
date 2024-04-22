@@ -1,7 +1,6 @@
 export default function Form() {
   return (
     <>
-      <section class="search-bar-container blank-line" />
       <input
         type="text"
         placeholder="Search Location..."
