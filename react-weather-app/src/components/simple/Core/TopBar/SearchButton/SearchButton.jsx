@@ -1,4 +1,4 @@
-import searchImg from "./search.png";
+import searchImg from "../../../../images/search.png";
 
 export default function () {
   return (

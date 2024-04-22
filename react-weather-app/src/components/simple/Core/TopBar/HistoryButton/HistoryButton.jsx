@@ -1,4 +1,4 @@
-import historyImg from "./history.png";
+import historyImg from "../../../../images/history.png";
 
 export default function HistoryButton() {
   return (
