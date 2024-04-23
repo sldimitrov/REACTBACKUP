@@ -38,18 +38,18 @@ and (max-width: 1149px) {
 }
 
   #forecast-heading-container {
-      display: flex;
-      align-items:center;
-      justify-content: center;
-      height: 5vh;
-      width: 55vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 5vh;
+    width: 55vw;
   }
 
   #forecast-heading {
-      text-transform: uppercase;
-      margin: 0px;
-      font-size: 21px;
-      font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    font-size: 21px;
+    font-size: 18px;
   }
 
   .blank-line {
