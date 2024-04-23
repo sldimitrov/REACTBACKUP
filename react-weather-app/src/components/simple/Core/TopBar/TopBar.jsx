@@ -7,12 +7,10 @@ export default function TopBar() {
   return (
     <div id="top-bar-container">
       <Logo />
-      <div id="menu-container">
+      <div className="search-bar-container blank-line">
         <Form />
-        <div>
-          <HistoryButton />
-          <SearchButton />
-        </div>
+        <HistoryButton />
+        <SearchButton />
       </div>
     </div>
   );
