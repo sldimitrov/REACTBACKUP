@@ -9,7 +9,7 @@ export default function TopBar() {
       <Logo />
       <div id="menu-container">
         <Form />
-        <div id="">
+        <div>
           <HistoryButton />
           <SearchButton />
         </div>

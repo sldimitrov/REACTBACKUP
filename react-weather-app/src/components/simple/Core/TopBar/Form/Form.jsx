@@ -6,7 +6,7 @@ export default function Form() {
         placeholder="Search Location..."
         spellcheck="false"
         id="search-text"
-        maxlength="16"
+        maxLength="16"
       />
     </>
   );

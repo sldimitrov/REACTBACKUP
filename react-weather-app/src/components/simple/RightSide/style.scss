@@ -51,63 +51,6 @@
   height: 8vh;
 }
 
-.weather-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  height: 30vh;
-  max-width: 26vw;
-}
-
-.weather-forecast-container {
-  display: flex;
-  align-items: center;
-  max-width: 18vw;
-  height: 10vh;
-}
-
-.line {
-  display: flex;
-  align-items:center;
-  justify-content: space-between;
-  width: 25vw;
-  height: 10vh;
-}
-
-.left-part {
-  display: flex;
-  justify-content: space-between;
-  width: 150px;
-}
-
-.weather-img {
-  height: 48px;
-  width: 48px;
-}
-
-.hour-weather {
-  display: flex;
-  flex-wrap: wrap;
-  width: 6vw;
-  max-width: 50px;
-  height: 6vh;
-  font-size: 18px;
-  opacity: 0.8;
-}
-
-#current-time {
-  margin: 0px;
-}
-
-#weather-description {
-  margin: 0px;
-}
-
-.forecast-temp {
-  font-size: 24px;
-  opacity: 0.7;
-}
-
 .blur {
   position: absolute;
   display: flex;
@@ -116,4 +59,5 @@
   right: 0;
   backdrop-filter: blur(9px);
   z-index: 0;
+
 }

@@ -1,4 +1,4 @@
-export default function ({ children }) {
+export default function Forecast({ children }) {
   return (
     <section class="forecast-container">
       <heading id="forecast-heading-container">
