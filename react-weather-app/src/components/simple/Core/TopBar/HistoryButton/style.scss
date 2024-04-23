@@ -1,10 +1,40 @@
-#history-button {
-  border-radius: 50px;
-  border-width: 5px;
-  border-color: #132059;
+
+@media only screen and (max-width: 639px) { 
+  #history-button {
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: #132059;
+  }
+  #h-image {
+    width: 12px;
+    height: 12px;
+  }
 }
 
-#h-image {
-  width: 28px;
-  height: 30px;
+
+@media only screen and (min-width: 640px)
+and (max-width: 1149px) {
+  #history-button {
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: #132059;
+}
+  #h-image {
+    width: 24px;
+    height: 26px;
+  }
+} 
+
+
+@media only screen and (min-width: 1150px) {
+  #history-button {
+    border-radius: 50px;
+    border-width: 5px;
+    border-color: #132059;
+  }
+  
+  #h-image {
+    width: 28px;
+    height: 30px;
+  }
 }
