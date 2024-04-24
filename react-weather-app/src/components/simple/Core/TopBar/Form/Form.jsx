@@ -4,7 +4,7 @@ export default function Form() {
       <input
         type="text"
         placeholder="Search Location..."
-        spellcheck="false"
+        spellCheck="false"
         id="search-text"
         maxLength="16"
       />
