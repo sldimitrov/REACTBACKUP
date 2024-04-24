@@ -1,8 +1,10 @@
 import { useState } from "react";
-import historyImg from "../../../../images/history.png";
+import historyImg from "../../images/history.png";
 
-export default function HistoryButton() {
-  const [isClicked, setIsClicked] = useState(false);
+export default function HistoryButton({ onSelectButton }) {
+  function handleClickHistory() {
+    onSelectButton();
+  }
 
   return (
     <button id="history-button">
@@ -10,7 +12,7 @@ export default function HistoryButton() {
         src={historyImg}
         id="h-image"
         onClick={() => {
-          console.log(1);
+          handleClickHistory();
         }}
       />
     </button>

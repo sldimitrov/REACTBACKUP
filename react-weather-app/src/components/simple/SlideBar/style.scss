@@ -42,7 +42,7 @@ and (max-width: 1149px) {
       transition: left 0.35s ease;
   }
 
-  .sidebar-background-container.active {
+  .sidebar-background-container {
       position: absolute;
       display: flex;
       width: 100%;
