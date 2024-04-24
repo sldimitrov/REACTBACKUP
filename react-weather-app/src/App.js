@@ -8,6 +8,7 @@ function App() {
     <Parent>
       <Core /> 
       <RightSide />
+      {isTrue && <LeftSide />}  
     </Parent>
   );
 }
