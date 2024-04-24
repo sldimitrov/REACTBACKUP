@@ -1,11 +1,11 @@
 export default function Forecast({ children }) {
   return (
-    <section class="forecast-container">
-      <heading id="forecast-heading-container">
+    <section className="forecast-container">
+      <div id="forecast-heading-container">
         <h4 id="forecast-heading">THUNDERSTORM WITH LIGHT DRIZZLE</h4>
-      </heading>
+      </div>
       {children}
-      <span class="blank-line" id="blank-container"></span>
+      <span className="blank-line" id="blank-container"></span>
     </section>
   );
 }
