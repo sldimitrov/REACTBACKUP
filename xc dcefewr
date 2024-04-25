@@ -1,0 +1,159 @@
+[33mcommit 34293584a2a409686dbbb8f5d29373107abd2272[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 57c0948 962ddfe
+Author: Slavi Dimitrov <135168991+sldimitrov@users.noreply.github.com>
+Date:   Wed Apr 24 21:06:28 2024 +0300
+
+    Merge pull request #1 from sldimitrov/cutdesign
+    
+    Cutdesign
+
+[33mcommit 962ddfea3aaab80082907126a1b475a9889c0121[m[33m ([m[1;31morigin/cutdesign[m[33m)[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Wed Apr 24 21:05:18 2024 +0300
+
+    add the functionality for the history tab appearing
+
+[33mcommit 7a3cd53447ec1d46aa2cb178060bebfca48b9073[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Wed Apr 24 20:03:54 2024 +0300
+
+    Initialise a second-level component - SlideBar
+
+[33mcommit b8a1f88581bc0786b75005faf859134cf7e85ce7[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Wed Apr 24 13:07:25 2024 +0300
+
+    add event listener to the history button
+
+[33mcommit d498de7b2a4152a66f60ddd6291609bfbd2d4cfb[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Wed Apr 24 12:43:37 2024 +0300
+
+    fix console warnings
+
+[33mcommit 57c0948e49b695bc6768fcd60d56423465b30c0c[m
+Merge: a49c1e3 210c40c
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Wed Apr 24 12:42:36 2024 +0300
+
+    Merge branch 'main' of https://github.com/sldimitrov/ReactWeatherApp
+
+[33mcommit a49c1e3b771d26c2a794b451f126a860e98cd7cc[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Wed Apr 24 12:39:25 2024 +0300
+
+    fix console warnings
+
+[33mcommit 210c40cb805c8a6937b36d72d3dbe6bb585e35d1[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 19:58:15 2024 +0300
+
+    fix bugs within the design and make it more reponsible
+
+[33mcommit 9e92c607b1841ac7c602c2cb5ba1ef060bdb8f74[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 19:31:08 2024 +0300
+
+    Upload the most of the design for the tablet and phone version
+
+[33mcommit 41194790225f822cb7adb7318d7fdd9c6802f167[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 18:43:11 2024 +0300
+
+    finish the laptop design
+
+[33mcommit 793fb9576beb48c0f6e1ec8f8ef4e94d1c1e3b5f[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 18:03:44 2024 +0300
+
+    add more reusable components and add blur to the right tab
+
+[33mcommit 935250c4bfe262957cb283e235c130cb8a04fd8e[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 01:55:40 2024 +0300
+
+    upload changes to the designg
+
+[33mcommit 5a5167a74a0d2ee56fc4c686ab3466734fbfe0b5[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 01:26:25 2024 +0300
+
+    finish the first component ready for re-use
+
+[33mcommit 3de03127cdaf2650e47c9e7296aad539a8338e48[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 01:18:00 2024 +0300
+
+    fix the design of the TopBar component
+
+[33mcommit cea9e083fe92b1f083d935edb4ff023d3cfeda3d[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 01:09:07 2024 +0300
+
+    Initialise my first re-useable component
+
+[33mcommit 9314c936e709e715a6395395347fc0ca351f13bf[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 00:55:30 2024 +0300
+
+    Add the images from the images folder
+
+[33mcommit e312f1aebab6e1a29cb3bb67d4aec1d65e55d4dc[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Tue Apr 23 00:23:42 2024 +0300
+
+    Initialise nested components structure and implement the topbar within the core component
+
+[33mcommit beba4e7589801ed06bda8c4ab863804b10905cb4[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 21:55:04 2024 +0300
+
+    Add new components and render the to the screen
+
+[33mcommit d30421ff75fb4f6d2643b7566da132d568587e00[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 12:42:42 2024 +0300
+
+    save changes
+
+[33mcommit bafb8691a9b35183fe38dcc615b158e7aaea06b3[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 12:13:22 2024 +0300
+
+    upload the images within the components folder
+
+[33mcommit 7a569b4d7e15f5ae3beb5211de78036f0ada554e[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 12:11:59 2024 +0300
+
+    restore accidentaly removed files and folder
+
+[33mcommit 1e4718562f55cfad16d6c8033c8a71319b65430d[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 11:59:31 2024 +0300
+
+    upload images for the project
+
+[33mcommit 95285c7057186735451e4d725971e8f32c474d43[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 11:50:49 2024 +0300
+
+    Upload the structure of 3 main components and nest the children inside the parent one
+
+[33mcommit 7cd807bb8d0d895e22ffa97a59252404fba05fdd[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 11:16:02 2024 +0300
+
+    Initialise folder for my components
+
+[33mcommit 0b5aca41c0d0cf02c1f4039576f4ca575039180e[m
+Author: Slavi Dimitrov <slavi@orbisds.com>
+Date:   Mon Apr 22 11:09:21 2024 +0300
+
+    Initialise React Setup
+
+[33mcommit 28bf28775733bb378839bfd0084df5f53db61134[m
+Author: Slavi Dimitrov <135168991+sldimitrov@users.noreply.github.com>
+Date:   Mon Apr 22 10:49:53 2024 +0300
+
+    Initial commit
